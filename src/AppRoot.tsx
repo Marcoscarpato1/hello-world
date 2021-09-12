@@ -35,10 +35,10 @@ const AppRoot = ({text}: AppRoot) => {
             <StyledText text={text}/>
             <HorizontalContainer>
                 <StyledButton isRed onClick={() => onClick(strings["Red-Button"])}>
-                    Clica ae pô!
+                    Clica ae po!
                 </StyledButton>
                 <StyledButton onClick={() => onClick(strings["Green-Button"])}>
-                    Clica aqui não!
+                    Clica aqui nao!
                 </StyledButton>
             </HorizontalContainer>
             <StyledButton onClick={increment}>
